@@ -3,7 +3,7 @@ import { v4 as uuidv4 } from 'https://jspm.dev/uuid';
 export const tweetsData = [
     {
         handle: `@ObnoxiousBot💲💲💲`,
-        profilePic: `/images/troll.jpg`,
+        profilePic: `./T/images/troll.jpg`,
         likes: 15,
         retweets: 5,
         tweetText: `Buy Dogecoin, Make 💰💰💰 with low low prices. 
@@ -11,7 +11,7 @@ export const tweetsData = [
         replies: [
             {
                 handle: `@scammedPerson ✅`,
-                profilePic: `/images/scammedPerson.jpg`,
+                profilePic: `./T/images/scammedPerson.jpg`,
                 tweetText: `How can I buy?!`,
             }
         ],
@@ -21,14 +21,14 @@ export const tweetsData = [
     },
     {
         handle: `@SpaceX ✅`,
-        profilePic: `/images/spaceXLogo.png`,
+        profilePic: `./T/images/spaceXLogo.png`,
         likes: 10500,
         retweets: 500,
         tweetText: `I need volunteers for a one-way mission to Mars 🪐. No experience necessary🚀`,
         replies: [
             {
                 handle: `@TomCruise ✅`,
-                profilePic: `/images/tcruise.png`,
+                profilePic: `./T/images/tcruise.png`,
                 tweetText: `Yes! Sign me up! 😎🛩`,
             },
             {
@@ -43,7 +43,7 @@ export const tweetsData = [
     },
     {
         handle: `@Elon ✅`,
-        profilePic: `/images/musk.png`,
+        profilePic: `./T/images/musk.png`,
         likes: 6500,
         retweets: 234,
         tweetText: `Let it sink in 🚽`,
@@ -55,7 +55,7 @@ export const tweetsData = [
             },
             {
                 handle: `@RealMark ✅`,
-                profilePic: `/images/Mark.jpg`,
+                profilePic: `./T/images/Mark.jpg`,
                 tweetText: `Has anybody heard about the "Metaverse" yet 🤖`,
             },
         ],
@@ -65,19 +65,19 @@ export const tweetsData = [
     },
     {
         handle: `@AwesomeCoder29`,
-        profilePic: `/images/flower.png`,
+        profilePic: `./T/images/flower.png`,
         likes: 10,
         retweets: 3,
         tweetText: `Who wants to see my awesome project, only done with HTML?`,
         replies: [
             {
                 handle: `@StackOverflower ☣️`,
-                profilePic: `/images/overflow.png`,
+                profilePic: `./T/images/overflow.png`,
                 tweetText: `How can you even call yourself a coder?! Go work at Starbucks!`,
             },
             {
                 handle: `@YummyCoder64`,
-                profilePic: `/images/love.png`,
+                profilePic: `./T/images/love.png`,
                 tweetText: `Yes please, show us! You are doing great ❤️`,
             },
         ],
