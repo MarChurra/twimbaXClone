@@ -92,7 +92,7 @@ function pushResponse(replyId) {
     if (replyInput.value && targetTweetObj) {
         targetTweetObj.replies.unshift({
             handle: '@Scrimba',
-            profilePic: 'images/scrimbalogo.png',
+            profilePic: '/images/scrimbalogo.png',
             tweetText: replyInput.value,
         });
     }
