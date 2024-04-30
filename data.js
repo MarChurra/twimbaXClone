@@ -11,7 +11,7 @@ export const tweetsData = [
         replies: [
             {
                 handle: `@scammedPerson ✅`,
-                profilePic: `images/scammedPerson.jpg`,
+                profilePic: `/images/scammedPerson.jpg`,
                 tweetText: `How can I buy?!`,
             }
         ],
@@ -28,12 +28,12 @@ export const tweetsData = [
         replies: [
             {
                 handle: `@TomCruise ✅`,
-                profilePic: `images/tcruise.png`,
+                profilePic: `/images/tcruise.png`,
                 tweetText: `Yes! Sign me up! 😎🛩`,
             },
             {
                 handle: `@ChuckNorris ✅`,
-                profilePic: `images/chucknorris.jpeg`,
+                profilePic: `/images/chucknorris.jpeg`,
                 tweetText: `I went last year😴`,
             },
         ],
@@ -50,12 +50,12 @@ export const tweetsData = [
         replies: [
             {
                 handle: `@RealJeff ✅`,
-                profilePic: `images/jeff.png`,
+                profilePic: `/images/jeff.png`,
                 tweetText: `Bold move cowboy 🐎`,
             },
             {
                 handle: `@RealMark ✅`,
-                profilePic: `images/Mark.jpg`,
+                profilePic: `/images/Mark.jpg`,
                 tweetText: `Has anybody heard about the "Metaverse" yet 🤖`,
             },
         ],
@@ -72,12 +72,12 @@ export const tweetsData = [
         replies: [
             {
                 handle: `@StackOverflower ☣️`,
-                profilePic: `images/overflow.png`,
+                profilePic: `/images/overflow.png`,
                 tweetText: `How can you even call yourself a coder?! Go work at Starbucks!`,
             },
             {
                 handle: `@YummyCoder64`,
-                profilePic: `images/love.png`,
+                profilePic: `/images/love.png`,
                 tweetText: `Yes please, show us! You are doing great ❤️`,
             },
         ],
