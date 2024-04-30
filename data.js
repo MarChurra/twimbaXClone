@@ -3,7 +3,7 @@ import { v4 as uuidv4 } from 'https://jspm.dev/uuid';
 export const tweetsData = [
     {
         handle: `@ObnoxiousBot💲💲💲`,
-        profilePic: `images/troll.jpg`,
+        profilePic: `/images/troll.jpg`,
         likes: 15,
         retweets: 5,
         tweetText: `Buy Dogecoin, Make 💰💰💰 with low low prices. 
@@ -21,7 +21,7 @@ export const tweetsData = [
     },
     {
         handle: `@SpaceX ✅`,
-        profilePic: `images/spaceXLogo.png`,
+        profilePic: `/images/spaceXLogo.png`,
         likes: 10500,
         retweets: 500,
         tweetText: `I need volunteers for a one-way mission to Mars 🪐. No experience necessary🚀`,
@@ -43,7 +43,7 @@ export const tweetsData = [
     },
     {
         handle: `@Elon ✅`,
-        profilePic: `images/musk.png`,
+        profilePic: `/images/musk.png`,
         likes: 6500,
         retweets: 234,
         tweetText: `Let it sink in 🚽`,
@@ -65,7 +65,7 @@ export const tweetsData = [
     },
     {
         handle: `@AwesomeCoder29`,
-        profilePic: `images/flower.png`,
+        profilePic: `/images/flower.png`,
         likes: 10,
         retweets: 3,
         tweetText: `Who wants to see my awesome project, only done with HTML?`,
