@@ -55,7 +55,7 @@ export const tweetsData = [
             },
             {
                 handle: `@RealMark ✅`,
-                profilePic: './images/Mark.jpg',
+                profilePic: '/Mark.jpg',
                 tweetText: `Has anybody heard about the "Metaverse" yet 🤖`,
             },
         ],
