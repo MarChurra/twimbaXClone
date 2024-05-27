@@ -17,11 +17,11 @@ body {
 h1 {
     color: #0F8CDF;
     margin-bottom: 10px;
-    font-size: 20px;
+    font-size: 1.5rem;
 }
 
 i {
-    font-size: 15px;
+    font-size: 1rem;
     cursor: pointer;
 }
 
@@ -41,14 +41,14 @@ i {
 
 main,
 header {
-    width: 290px;
+    width: 500px;
     margin: 0 auto;
 }
 
 header {
     display: flex;
-    padding-top: 15px;
-    padding-bottom: 25px;
+    padding-top: 1em;
+    padding-bottom: 1.5em;
     align-items: center;
     justify-content: space-between;
 }
@@ -68,9 +68,9 @@ textarea,
     resize: none;
     padding: 10px;
     margin: 0 0 20px 0;
-    height: 60px;
+    height: 80px;
     width: 100%;
-    font-size: 20px;
+    font-size: 1.25rem;
     line-height: 30px;
     border-radius: 5px;
     background-color: #ffffff;
@@ -101,9 +101,9 @@ textarea {
 }
 
 .reply-textarea {
-    margin-top: 20px;
+    margin-top: 1.3em;
     border: 2px solid rgba(0, 0, 0, 0.3);
-    font-size: 14px;
+    font-size: 1rem;
 }
 
 .submit-icon {
@@ -164,15 +164,15 @@ button {
 }
 
 .handle {
-    font-size: 12px;
+    font-size: 14px;
     font-weight: 500;
     color: #555;
     margin-top: 0;
 }
 
 .dark-mode .handle {
-color: #ffffff;
-font-weight: bold;
+    color: #ffffff;
+    font-weight: bold;
 }
 
 .tweet-text {
@@ -197,4 +197,8 @@ font-weight: bold;
 
 #sun {
     display: none;
+}
+
+.fa-moon, .fa-sun {
+    font-size: 1.5rem;
 }
