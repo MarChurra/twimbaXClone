@@ -11,6 +11,7 @@ body {
 .dark-mode {
     background-color: #333;
     color: #fff;
+    min-height: 100vh;
 }
 
 /* typography and icons */
