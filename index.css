@@ -5,6 +5,7 @@ body {
     font-family: 'Roboto', sans-serif;
     background-color: #F9F6EE;
     color: #333;
+    height: 100%;
 }
 
 .dark-mode {
@@ -41,9 +42,14 @@ i {
 
 main,
 header {
-    width: 500px;
+    width: 50%;
+    min-width: 300px;
+    max-width: 700px;
+    height: auto;
     margin: 0 auto;
+    display: block;
 }
+
 
 header {
     display: flex;
@@ -131,6 +137,14 @@ button {
 
 /* tweet */
 
+.feed {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
 .tweet {
     border-top: 1px solid lightgray;
     padding: 20px 0 0 0;
@@ -140,8 +154,10 @@ button {
 
 .tweet-inner {
     display: flex;
-    align-items: flex-start;
+    align-items: center;
+    justify-content: center;
     gap: 10px;
+    width: 100%;
 }
 
 .tweet-details {
@@ -199,6 +215,7 @@ button {
     display: none;
 }
 
-.fa-moon, .fa-sun {
+.fa-moon,
+.fa-sun {
     font-size: 1.5rem;
 }
