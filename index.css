@@ -201,7 +201,7 @@ button {
 
 .tweet-text {
     width: 207px;
-    font-size: 1rem;
+    font-size: 0.8rem;
     line-height: 1.5;
 }
 
@@ -210,7 +210,7 @@ button {
     border: 1px solid lightgray;
     border-radius: 50%;
     width: 50px;
-    height: auto;
+    height: 50px;
 }
 
 /* utility */
